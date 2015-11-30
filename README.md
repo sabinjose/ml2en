@@ -2,7 +2,7 @@
 ML2EN converts malayalm unicode text to its equalant english text(Romanization)
 #Usage
 
-String englishText = Ml2En.convert2EN("മലയാളം"));
+String englishText = Ml2En.convert2EN("മലയാളം");
 
 #Sample
 

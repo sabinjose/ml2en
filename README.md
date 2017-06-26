@@ -1,13 +1,17 @@
-# ml2en
+ml2en
+==========
 ML2EN converts malayalm unicode text to its equalant english text(Romanization)
-####Usage
 
+#### Usage
+``` java
 String englishText = Ml2En.convert2EN("മലയാളം");
+```
 
-####Sample
+#### Sample
 
-input:
+##### input:
 
+```
 തിരുനാമകീര്‍ത്തനം പാടുവാനല്ലെങ്കില്‍ 
 
 നാവെനിക്കെന്തിനു നാഥാ, 
@@ -36,9 +40,11 @@ input:
 
 മാലാഖമാരൊത്തു പാടാം 
 
+```
 
-output:
 
+##### output:
+```
 Thirunaamakeer‍tthanam paatuvaanallenkil‍ 
 
 naavenikkenthinu naathaa, 
@@ -66,4 +72,4 @@ mizhikalil‍ nokki njaanuyar‍nnupaataam
 vaanameghangalil‍ otuvil‍ nee etthumpol‍ 
 
 maalaakhamaarotthu paataam 
-
+```
